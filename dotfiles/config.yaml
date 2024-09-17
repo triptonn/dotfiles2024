@@ -1,0 +1,288 @@
+config:
+  backup: true
+  banner: true
+  create: true
+  dotpath: dotfiles
+  ignoreempty: false
+  keepdot: false
+  longkey: false
+  showdiff: false
+  workdir: ~/.config/dotdrop
+dotfiles:
+  f_settings.json:
+    src: home/triptonn/.config/Code/User/settings.json
+    dst: /home/triptonn/.config/Code/User/settings.json
+  f_init.lua:
+    src: home/triptonn/.config/nvim/init.lua
+    dst: /home/triptonn/.config/nvim/init.lua
+  f_core_init.lua:
+    src: home/triptonn/.config/nvim/lua/template/core/init.lua
+    dst: /home/triptonn/.config/nvim/lua/template/core/init.lua
+  f_keymaps.lua:
+    src: home/triptonn/.config/nvim/lua/template/core/keymaps.lua
+    dst: /home/triptonn/.config/nvim/lua/template/core/keymaps.lua
+  f_options.lua:
+    src: home/triptonn/.config/nvim/lua/template/core/options.lua
+    dst: /home/triptonn/.config/nvim/lua/template/core/options.lua
+  f_lspconfig.lua:
+    src: home/triptonn/.config/nvim/lua/template/plugins/lsp/lspconfig.lua
+    dst: /home/triptonn/.config/nvim/lua/template/plugins/lsp/lspconfig.lua
+  f_mason.lua:
+    src: home/triptonn/.config/nvim/lua/template/plugins/lsp/mason.lua
+    dst: /home/triptonn/.config/nvim/lua/template/plugins/lsp/mason.lua
+  f_alpha.lua:
+    src: home/triptonn/.config/nvim/lua/template/plugins/alpha.lua
+    dst: /home/triptonn/.config/nvim/lua/template/plugins/alpha.lua
+  f_autopairs.lua:
+    src: home/triptonn/.config/nvim/lua/template/plugins/autopairs.lua
+    dst: /home/triptonn/.config/nvim/lua/template/plugins/autopairs.lua
+  f_auto-session.lua:
+    src: home/triptonn/.config/nvim/lua/template/plugins/auto-session.lua
+    dst: /home/triptonn/.config/nvim/lua/template/plugins/auto-session.lua
+  f_bufferline.lua:
+    src: home/triptonn/.config/nvim/lua/template/plugins/bufferline.lua
+    dst: /home/triptonn/.config/nvim/lua/template/plugins/bufferline.lua
+  f_colorscheme.lua:
+    src: home/triptonn/.config/nvim/lua/template/plugins/colorscheme.lua
+    dst: /home/triptonn/.config/nvim/lua/template/plugins/colorscheme.lua
+  f_comment.lua:
+    src: home/triptonn/.config/nvim/lua/template/plugins/comment.lua
+    dst: /home/triptonn/.config/nvim/lua/template/plugins/comment.lua
+  f_dressing.lua:
+    src: home/triptonn/.config/nvim/lua/template/plugins/dressing.lua
+    dst: /home/triptonn/.config/nvim/lua/template/plugins/dressing.lua
+  f_formatting.lua:
+    src: home/triptonn/.config/nvim/lua/template/plugins/formatting.lua
+    dst: /home/triptonn/.config/nvim/lua/template/plugins/formatting.lua
+  f_gitsigns.lua:
+    src: home/triptonn/.config/nvim/lua/template/plugins/gitsigns.lua
+    dst: /home/triptonn/.config/nvim/lua/template/plugins/gitsigns.lua
+  f_indent-blankline.lua:
+    src: home/triptonn/.config/nvim/lua/template/plugins/indent-blankline.lua
+    dst: /home/triptonn/.config/nvim/lua/template/plugins/indent-blankline.lua
+  f_plugins_init.lua:
+    src: home/triptonn/.config/nvim/lua/template/plugins/init.lua
+    dst: /home/triptonn/.config/nvim/lua/template/plugins/init.lua
+  f_lazygit.lua:
+    src: home/triptonn/.config/nvim/lua/template/plugins/lazygit.lua
+    dst: /home/triptonn/.config/nvim/lua/template/plugins/lazygit.lua
+  f_linting.lua:
+    src: home/triptonn/.config/nvim/lua/template/plugins/linting.lua
+    dst: /home/triptonn/.config/nvim/lua/template/plugins/linting.lua
+  f_lualine.lua:
+    src: home/triptonn/.config/nvim/lua/template/plugins/lualine.lua
+    dst: /home/triptonn/.config/nvim/lua/template/plugins/lualine.lua
+  f_nvim-cmp.lua:
+    src: home/triptonn/.config/nvim/lua/template/plugins/nvim-cmp.lua
+    dst: /home/triptonn/.config/nvim/lua/template/plugins/nvim-cmp.lua
+  f_nvim-tree.lua:
+    src: home/triptonn/.config/nvim/lua/template/plugins/nvim-tree.lua
+    dst: /home/triptonn/.config/nvim/lua/template/plugins/nvim-tree.lua
+  f_substitute.lua:
+    src: home/triptonn/.config/nvim/lua/template/plugins/substitute.lua
+    dst: /home/triptonn/.config/nvim/lua/template/plugins/substitute.lua
+  f_surround.lua:
+    src: home/triptonn/.config/nvim/lua/template/plugins/surround.lua
+    dst: /home/triptonn/.config/nvim/lua/template/plugins/surround.lua
+  f_telescope.lua:
+    src: home/triptonn/.config/nvim/lua/template/plugins/telescope.lua
+    dst: /home/triptonn/.config/nvim/lua/template/plugins/telescope.lua
+  f_todo-comments.lua:
+    src: home/triptonn/.config/nvim/lua/template/plugins/todo-comments.lua
+    dst: /home/triptonn/.config/nvim/lua/template/plugins/todo-comments.lua
+  f_treesitter.lua:
+    src: home/triptonn/.config/nvim/lua/template/plugins/treesitter.lua
+    dst: /home/triptonn/.config/nvim/lua/template/plugins/treesitter.lua
+  f_trouble.lua:
+    src: home/triptonn/.config/nvim/lua/template/plugins/trouble.lua
+    dst: /home/triptonn/.config/nvim/lua/template/plugins/trouble.lua
+  f_vim-maximizer.lua:
+    src: home/triptonn/.config/nvim/lua/template/plugins/vim-maximizer.lua
+    dst: /home/triptonn/.config/nvim/lua/template/plugins/vim-maximizer.lua
+  f_which-key.lua:
+    src: home/triptonn/.config/nvim/lua/template/plugins/which-key.lua
+    dst: /home/triptonn/.config/nvim/lua/template/plugins/which-key.lua
+  f_lazy.lua:
+    src: home/triptonn/.config/nvim/lua/template/lazy.lua
+    dst: /home/triptonn/.config/nvim/lua/template/lazy.lua
+  f_bars.ini:
+    src: home/triptonn/.config/polybar/hack/bars.ini
+    dst: /home/triptonn/.config/polybar/hack/bars.ini
+  f_colors.ini:
+    src: home/triptonn/.config/polybar/hack/colors.ini
+    dst: /home/triptonn/.config/polybar/hack/colors.ini
+  f_config-left.ini:
+    src: home/triptonn/.config/polybar/hack/config-left.ini
+    dst: /home/triptonn/.config/polybar/hack/config-left.ini
+  f_config-right.ini:
+    src: home/triptonn/.config/polybar/hack/config-right.ini
+    dst: /home/triptonn/.config/polybar/hack/config-right.ini
+  f_modules.ini:
+    src: home/triptonn/.config/polybar/hack/modules.ini
+    dst: /home/triptonn/.config/polybar/hack/modules.ini
+  f_preview.ini:
+    src: home/triptonn/.config/polybar/hack/preview.ini
+    dst: /home/triptonn/.config/polybar/hack/preview.ini
+  f_user_modules.ini:
+    src: home/triptonn/.config/polybar/hack/user_modules.ini
+    dst: /home/triptonn/.config/polybar/hack/user_modules.ini
+  f_launch.sh:
+    src: home/triptonn/.config/polybar/hack/launch.sh
+    dst: /home/triptonn/.config/polybar/hack/launch.sh
+    chmod: '755'
+  f_preview.sh:
+    src: home/triptonn/.config/polybar/hack/preview.sh
+    dst: /home/triptonn/.config/polybar/hack/preview.sh
+    chmod: '755'
+  f_colors-dark.sh:
+    src: home/triptonn/.config/polybar/hack/scripts/colors-dark.sh
+    dst: /home/triptonn/.config/polybar/hack/scripts/colors-dark.sh
+    chmod: '755'
+  f_colors-light.sh:
+    src: home/triptonn/.config/polybar/hack/scripts/colors-light.sh
+    dst: /home/triptonn/.config/polybar/hack/scripts/colors-light.sh
+    chmod: '755'
+  f_color-switch.sh:
+    src: home/triptonn/.config/polybar/hack/scripts/color-switch.sh
+    dst: /home/triptonn/.config/polybar/hack/scripts/color-switch.sh
+    chmod: '755'
+  f_launcher.sh:
+    src: home/triptonn/.config/polybar/hack/scripts/launcher.sh
+    dst: /home/triptonn/.config/polybar/hack/scripts/launcher.sh
+    chmod: '755'
+  f_powermenu.sh:
+    src: home/triptonn/.config/polybar/hack/scripts/powermenu.sh
+    dst: /home/triptonn/.config/polybar/hack/scripts/powermenu.sh
+    chmod: '755'
+  f_pywal.sh:
+    src: home/triptonn/.config/polybar/hack/scripts/pywal.sh
+    dst: /home/triptonn/.config/polybar/hack/scripts/pywal.sh
+    chmod: '755'
+  f_random.sh:
+    src: home/triptonn/.config/polybar/hack/scripts/random.sh
+    dst: /home/triptonn/.config/polybar/hack/scripts/random.sh
+    chmod: '755'
+  f_updates.sh:
+    src: home/triptonn/.config/polybar/hack/scripts/updates.sh
+    dst: /home/triptonn/.config/polybar/hack/scripts/updates.sh
+    chmod: '755'
+  f_check-network:
+    src: home/triptonn/.config/polybar/hack/scripts/check-network
+    dst: /home/triptonn/.config/polybar/hack/scripts/check-network
+    chmod: '755'
+  f_checkupdates:
+    src: home/triptonn/.config/polybar/hack/scripts/checkupdates
+    dst: /home/triptonn/.config/polybar/hack/scripts/checkupdates
+    chmod: '755'
+  f_colors.rasi:
+    src: home/triptonn/.config/polybar/hack/scripts/rofi/colors.rasi
+    dst: /home/triptonn/.config/polybar/hack/scripts/rofi/colors.rasi
+  f_confirm.rasi:
+    src: home/triptonn/.config/polybar/hack/scripts/rofi/confirm.rasi
+    dst: /home/triptonn/.config/polybar/hack/scripts/rofi/confirm.rasi
+  f_launcher.rasi:
+    src: home/triptonn/.config/polybar/hack/scripts/rofi/launcher.rasi
+    dst: /home/triptonn/.config/polybar/hack/scripts/rofi/launcher.rasi
+  f_message.rasi:
+    src: home/triptonn/.config/polybar/hack/scripts/rofi/message.rasi
+    dst: /home/triptonn/.config/polybar/hack/scripts/rofi/message.rasi
+  f_networkmenu.rasi:
+    src: home/triptonn/.config/polybar/hack/scripts/rofi/networkmenu.rasi
+    dst: /home/triptonn/.config/polybar/hack/scripts/rofi/networkmenu.rasi
+  f_powermenu.rasi:
+    src: home/triptonn/.config/polybar/hack/scripts/rofi/powermenu.rasi
+    dst: /home/triptonn/.config/polybar/hack/scripts/rofi/powermenu.rasi
+  f_styles.rasi:
+    src: home/triptonn/.config/polybar/hack/scripts/rofi/styles.rasi
+    dst: /home/triptonn/.config/polybar/hack/scripts/rofi/styles.rasi
+  f_transparent-kitty.conf:
+    src: home/triptonn/.config/kitty/transparent-kitty.conf
+    dst: /home/triptonn/.config/kitty/transparent-kitty.conf
+  f_tokyo-night-kitty-theme.conf:
+    src: home/triptonn/.config/kitty/tokyo-night-kitty-theme.conf
+    dst: /home/triptonn/.config/kitty/tokyo-night-kitty-theme.conf
+  f_current-theme.conf:
+    src: home/triptonn/.config/kitty/current-theme.conf
+    dst: /home/triptonn/.config/kitty/current-theme.conf
+  f_config:
+    src: home/triptonn/.config/i3/config
+    dst: /home/triptonn/.config/i3/config
+  f_zshrc:
+    src: home/triptonn/.zshrc
+    dst: /home/triptonn/.zshrc
+    chmod: '755'
+  f_bashrc:
+    src: home/triptonn/.bashrc
+    dst: /home/triptonn/.bashrc
+    chmod: '666'
+  f_tmux.conf:
+    src: home/triptonn/.tmux.conf
+    dst: /home/triptonn/.tmux.conf
+profiles:
+  archlinux:
+    dotfiles:
+    - f_settings.json
+    - f_init.lua
+    - f_core_init.lua
+    - f_keymaps.lua
+    - f_options.lua
+    - f_lspconfig.lua
+    - f_mason.lua
+    - f_alpha.lua
+    - f_autopairs.lua
+    - f_auto-session.lua
+    - f_bufferline.lua
+    - f_colorscheme.lua
+    - f_comment.lua
+    - f_dressing.lua
+    - f_formatting.lua
+    - f_gitsigns.lua
+    - f_indent-blankline.lua
+    - f_plugins_init.lua
+    - f_lazygit.lua
+    - f_linting.lua
+    - f_lualine.lua
+    - f_nvim-cmp.lua
+    - f_nvim-tree.lua
+    - f_substitute.lua
+    - f_surround.lua
+    - f_telescope.lua
+    - f_todo-comments.lua
+    - f_treesitter.lua
+    - f_trouble.lua
+    - f_vim-maximizer.lua
+    - f_which-key.lua
+    - f_lazy.lua
+    - f_bars.ini
+    - f_colors.ini
+    - f_config-left.ini
+    - f_config-right.ini
+    - f_modules.ini
+    - f_preview.ini
+    - f_user_modules.ini
+    - f_launch.sh
+    - f_preview.sh
+    - f_colors-dark.sh
+    - f_colors-light.sh
+    - f_color-switch.sh
+    - f_launcher.sh
+    - f_powermenu.sh
+    - f_pywal.sh
+    - f_random.sh
+    - f_updates.sh
+    - f_check-network
+    - f_checkupdates
+    - f_colors.rasi
+    - f_confirm.rasi
+    - f_launcher.rasi
+    - f_message.rasi
+    - f_networkmenu.rasi
+    - f_powermenu.rasi
+    - f_styles.rasi
+    - f_transparent-kitty.conf
+    - f_tokyo-night-kitty-theme.conf
+    - f_current-theme.conf
+    - f_config
+    - f_zshrc
+    - f_bashrc
+    - f_tmux.conf

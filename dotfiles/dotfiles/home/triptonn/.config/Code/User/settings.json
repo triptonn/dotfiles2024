@@ -1,0 +1,18 @@
+{
+    "workbench.sideBar.location": "right",
+    "workbench.colorTheme": "Monokai Classic",
+    "editor.minimap.enabled": false,
+    "terminal.integrated.cursorBlinking": true,
+    "cmake.showOptionsMovedNotification": false,
+    "workbench.iconTheme": "Monokai Classic Icons",
+    "workbench.colorCustomizations": {},
+    "window.titleBarStyle": "custom",
+    "security.workspace.trust.untrustedFiles": "open",
+    "wakatime.apiKey": "${env:WAKASEC}",
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j", "k"],
+            "after": ["<Esc>"],
+        }        
+    ]
+}
