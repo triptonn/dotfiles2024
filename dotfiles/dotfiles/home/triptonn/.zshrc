@@ -10,7 +10,7 @@ export ZSH="/usr/share/oh-my-zsh/"
 ZSH_THEME="keyitdev"
 plugins=(git)
 
-export $(envsubst < .env)
+export $(envsubst < ./.env)
 
 ZSH_CACHE_DIR="$HOME/.cache/oh-my-zsh"
 if [[ ! -d "$ZSH_CACHE_DIR" ]]; then
@@ -29,7 +29,7 @@ alias lsb="ls -latrh"
 
 # Virtual Environment
 alias makevenv="sudo python3 -m venv .venv"
-alias ev="source .venv/bin/activate"
+alias .venv="source .venv/bin/activate"
 
 # Mounting
 alias mountbackup="sudo mount --onlyonce PARTUUID=e8900690-03 /mnt/backup"
@@ -43,7 +43,11 @@ alias yeet="yay -Rn"
 alias yeeet="yay -Rns"
 alias yeet_useless="yay -Rns $(yay -Qtdq)"
 
+# Snipping tool escrotum
+alias sp="escrotum -s -C"
+alias ss="escrotum -s"
 
+# Dotdrop 
 alias dotdrop="dotdrop --cfg=/home/triptonn/dotdrop/dotfiles/config.yaml" 
 alias updatedotfiles="cd /home/triptonn/dotdrop/dotfiles; source .venv/bin/activate; sudo dotdrop update"
 
