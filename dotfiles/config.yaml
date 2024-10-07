@@ -218,6 +218,9 @@ dotfiles:
   f_tmux.conf:
     src: home/triptonn/.tmux.conf
     dst: /home/triptonn/.tmux.conf
+  f_firefox_vimium_config.json:
+    src: Downloads/firefox_vimium_config.json
+    dst: ~/Downloads/firefox_vimium_config.json
 profiles:
   archlinux:
     dotfiles:
@@ -286,3 +289,4 @@ profiles:
     - f_zshrc
     - f_bashrc
     - f_tmux.conf
+    - f_firefox_vimium_config.json

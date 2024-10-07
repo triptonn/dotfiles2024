@@ -35,3 +35,7 @@ opt.clipboard:append("unnamedplus") -- use system clipboard as default register
 -- split windows
 opt.splitright = true -- split vertical window to the right
 opt.splitbelow = true -- split horizontal window to the bottom
+
+vim.g.lazyvim_pyhton_lsp = "pyright"
+
+vim.g.lazyvim_pyhton_ruff = "ruff"

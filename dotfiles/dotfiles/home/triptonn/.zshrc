@@ -10,7 +10,7 @@ export ZSH="/usr/share/oh-my-zsh/"
 ZSH_THEME="keyitdev"
 plugins=(git)
 
-export $(envsubst < ./.env)
+export $(envsubst < .env)
 
 ZSH_CACHE_DIR="$HOME/.cache/oh-my-zsh"
 if [[ ! -d "$ZSH_CACHE_DIR" ]]; then
@@ -19,13 +19,14 @@ fi
 
 source "$ZSH"/oh-my-zsh.sh
 
-path+=('/home/triptonn/.local/bin/')
 
+# PATH settings
+path+=('/home/triptonn/.local/bin/')
 export PATH
 
 # Shell stuff
-
 alias lsb="ls -latrh"
+alias update="yay -Syu"
 
 # Virtual Environment
 alias makevenv="sudo python3 -m venv .venv"
@@ -48,8 +49,8 @@ alias sp="escrotum -s -C"
 alias ss="escrotum -s"
 
 # Dotdrop 
-alias dotdrop="dotdrop --cfg=/home/triptonn/dotdrop/dotfiles/config.yaml" 
-alias updatedotfiles="cd /home/triptonn/dotdrop/dotfiles; source .venv/bin/activate; sudo dotdrop update"
+alias dotdrop="dotdrop --cfg=/home/triptonn/dotdrop/dotfiles/config.yaml" # ?? 
+alias updatedotfiles="cd /home/triptonn/dotdrop; source .venv/bin/activate; cd dotfiles; sudo dotdrop update" # Update dotfiles already added to dotdrop
 
 # project shortcuts for VSCode
 alias aec="code -n /home/triptonn/Coding/DartFlutter/ActiveEase/client/client.code-workspace --profile Dart/Flutter-Linux"
@@ -77,9 +78,10 @@ alias sdmin="xdotool search --class pavucontrol windowunmap"
 alias sdmax="xdotool search --class pavucontrol windowmap"
 
 # droidcam
-alias dcam="droidcam -dev=/dev/video0 -size=1280x720"
+alias dcam="droidcam -dev=/dev/video0 -size=1280x720 &"
 
 # Huion Tablet
+alias tablet="/usr/lib/huiontablet/huiontablet.sh &"
 alias huionmin="xdotool search --class huiontablet windowunmap"
 alias huionmax="xdotool search --class huiontablet windowmap"
 
