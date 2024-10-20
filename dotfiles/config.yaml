@@ -221,6 +221,27 @@ dotfiles:
   f_firefox_vimium_config.json:
     src: Downloads/firefox_vimium_config.json
     dst: ~/Downloads/firefox_vimium_config.json
+  f_bookmarks.json:
+    src: mozilla/.afinestart/bookmarks.json
+    dst: ~/.mozilla/.afinestart/bookmarks.json
+  f_config-middle.ini:
+    src: config/polybar/hack/config-middle.ini
+    dst: ~/.config/polybar/hack/config-middle.ini
+  f_keybindings.json:
+    src: config/Code/User/profiles/-4522e7/keybindings.json
+    dst: ~/.config/Code/User/profiles/-4522e7/keybindings.json
+  f_-4522e7_settings.json:
+    src: config/Code/User/profiles/-4522e7/settings.json
+    dst: ~/.config/Code/User/profiles/-4522e7/settings.json
+  f_-105709cd_settings.json:
+    src: config/Code/User/profiles/-105709cd/settings.json
+    dst: ~/.config/Code/User/profiles/-105709cd/settings.json
+  f_-7706382a_settings.json:
+    src: config/Code/User/profiles/-7706382a/settings.json
+    dst: ~/.config/Code/User/profiles/-7706382a/settings.json
+  f_-58101337_settings.json:
+    src: config/Code/User/profiles/-58101337/settings.json
+    dst: ~/.config/Code/User/profiles/-58101337/settings.json
 profiles:
   archlinux:
     dotfiles:
@@ -290,3 +311,10 @@ profiles:
     - f_bashrc
     - f_tmux.conf
     - f_firefox_vimium_config.json
+    - f_bookmarks.json
+    - f_config-middle.ini
+    - f_keybindings.json
+    - f_-4522e7_settings.json
+    - f_-105709cd_settings.json
+    - f_-7706382a_settings.json
+    - f_-58101337_settings.json

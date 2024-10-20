@@ -19,7 +19,6 @@ fi
 
 source "$ZSH"/oh-my-zsh.sh
 
-
 # PATH settings
 path+=('/home/triptonn/.local/bin/')
 export PATH
@@ -31,6 +30,10 @@ alias update="yay -Syu"
 # Virtual Environment
 alias makevenv="sudo python3 -m venv .venv"
 alias .venv="source .venv/bin/activate"
+
+# Display settings profiles
+alias threeMonitors="autorandr -l threemonitors; killall -q polybar; ~/.config/polybar/hack/launch.sh"
+alias withLaptop="autorandr -l withLaptop; killall -q polybar"
 
 # Mounting
 alias mountbackup="sudo mount --onlyonce PARTUUID=e8900690-03 /mnt/backup"
@@ -50,7 +53,11 @@ alias ss="escrotum -s"
 
 # Dotdrop 
 alias dotdrop="dotdrop --cfg=/home/triptonn/dotdrop/dotfiles/config.yaml" # ?? 
+alias enterdotfiles="cd /home/triptonn/dotdrop; source .venv/bin/activate; cd dotfiles;"
 alias updatedotfiles="cd /home/triptonn/dotdrop; source .venv/bin/activate; cd dotfiles; sudo dotdrop update" # Update dotfiles already added to dotdrop
+
+# Shortcuts for VSCode
+alias scode="sudo code --no-sandbox"
 
 # project shortcuts for VSCode
 alias aec="code -n /home/triptonn/Coding/DartFlutter/ActiveEase/client/client.code-workspace --profile Dart/Flutter-Linux"
@@ -58,6 +65,7 @@ alias aes="code -n /home/triptonn/Coding/DartFlutter/ActiveEase/server/server.co
 
 # tmux standard sessions
 alias tmux-left="tmux new -s leftyLeft"
+alias tmux-main="tmux new -s main"
 alias tmux-right="tmux new -s rightyRight"
 
 # shell runcom's
@@ -67,7 +75,7 @@ alias grooster="rm grooster; gcc -g -lstdc++ -std=c++20 -pedantic ./*.cpp -o ./g
 alias clrooster="rm clrooster; clang++ -g -lstdc++ -std=c++20 -pedantic ./*.cpp -o ./clrooster; timeout 2 ./clrooster"
 
 # bluetooth
-alias kh="sudo bluetoothctl connect 00:1B:66:06:01:FF"
+alias kh="systemctl start bluetooth.service; sudo bluetoothctl connect 00:1B:66:06:01:FF"
 
 # ssh to pi
 alias pi="ssh quacksalber@192.168.178.39"

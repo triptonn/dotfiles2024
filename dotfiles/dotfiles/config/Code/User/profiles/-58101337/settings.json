@@ -1,0 +1,46 @@
+{
+    "workbench.sideBar.location": "right",
+    "clangd.detectExtensionConflicts": false,
+    "editor.minimap.enabled": false,
+    "workbench.colorCustomizations": {},
+    "git.openRepositoryInParentFolders": "never",
+    "workbench.iconTheme": "catppuccin-frappe",
+    "cmake.pinnedCommands": [
+        "workbench.action.tasks.configureTaskRunner",
+        "workbench.action.tasks.runTask"
+    ],
+    "workbench.colorTheme": "Catppuccin Frappé",
+    "todo-tree.highlights.customHighlight": {
+
+        "BUG": {
+            "icon": "bug"
+        },
+        "HACK": {
+            "icon": "tools"
+        },
+        "FIXME": {
+            "icon": "flame"
+        },
+        "TODO": {
+            "icon": "check-circle",
+            "iconColour": "#f5c2e7",
+            "background": "#f5c2e7",
+            "foreground": "#45475a",
+            "fontWeight": "600",
+        },
+        "XXX": {
+            "icon": "x"
+        },
+        "[ ]": {
+            "icon": "issue-draft"
+        },
+        "[x]": {
+            "icon": "issue-closed"
+        }
+    },
+    "editor.fontFamily": "'SauceCodePro Nerd Font', 'monospace', monospace",
+    "gitlens.currentLine.fontFamily": "'SauceCodePro Nerd Font', 'monospace', monospace",
+    "editor.codeLensFontSize": 14,
+    "editor.codeLensFontFamily": "'SauceCodePro Nerd Font', 'monospace', monospace",
+    "terminal.integrated.fontFamily": "'SauceCodePro Nerd Font', 'monospace', monospace"
+}

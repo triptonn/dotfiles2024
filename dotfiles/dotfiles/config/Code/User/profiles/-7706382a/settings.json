@@ -1,0 +1,15 @@
+{
+    "workbench.colorTheme": "Monokai GrayJack (Pastel)",
+    "python.defaultInterpreterPath": "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\Python37_64\\python.exe",
+    "git.ignoreMissingGitWarning": true,
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "python.autoComplete.extraPaths": [],
+    "python.analysis.extraPaths": [],
+    "workbench.iconTheme": "Monokai Classic Icons",
+    "workbench.editorAssociations": {
+        "*.docx": "docxViewer.DocxEdit"
+    },
+    "workbench.colorCustomizations": {}
+}

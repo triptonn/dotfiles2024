@@ -1,0 +1,141 @@
+[
+  {
+    "groups": [
+      {
+        "name": "Programming - Services",
+        "bookmarks": [
+          { "name": "VSCode Dev", "url": "https://vscode.dev/" },
+          { "name": "CodeWars", "url": "https://www.codewars.com" },
+          { "name": "GitHub", "url": "www.github.com" },
+          {
+            "name": "Google Cloude Console",
+            "url": "https://console.cloud.google.com/"
+          }
+        ]
+      },
+      {
+        "name": "Dart / Flutter Documentation",
+        "bookmarks": [
+          { "name": "Dart Reference Guide", "url": "https://dart.dev/guides" }
+        ]
+      },
+      {
+        "name": "C++ Documentation",
+        "bookmarks": [
+          { "name": "CPP Reference", "url": "https://en.cppreference.com/w/" },
+          {
+            "name": "C++ iomanip reference",
+            "url": "en.cppreference.com/w/cpp/io/manip"
+          },
+          {
+            "name": "C++ Operator Precedence",
+            "url": "https://en.cppreference.com/w/cpp/language/operator_precedence"
+          }
+        ]
+      },
+      {
+        "name": "misc. Documentation",
+        "bookmarks": [
+          {
+            "name": "ANSI Color Table",
+            "url": "https://gist.github.com/JBlond/2fea43a3049b38287e5e9cefc87b2124"
+          },
+          { "name": "ASCII Table", "url": "https://www.asciitable.com/" },
+          {
+            "name": "i3-WM User's Guide",
+            "url": "https://i3wm.org/docs/userguide.html"
+          },
+          {
+            "name": "Tmux Cheat Sheet",
+            "url": "https://gist.github.com/MohamedAlaa/2961058"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "name": "Mail",
+        "bookmarks": [
+          { "name": "Hotmail", "url": "www.hotmail.com" },
+          { "name": "Gmail", "url": "mail.google.de" },
+          { "name": "ActiveEase", "url": "https://mail.proton.me/u/1/inbox" },
+          { "name": "Jeremaiah", "url": "https://mail.proton.me/u/0/inbox" }
+        ]
+      },
+      {
+        "name": "Organisation",
+        "bookmarks": [
+          { "name": "Calendar", "url": "https://calendar.google.com/" }
+        ]
+      },
+      {
+        "name": "Shops",
+        "bookmarks": [{ "name": "Amazon", "url": "www.amazon.de" }]
+      },
+      {
+        "name": "Banking",
+        "bookmarks": [{ "name": "Paypal", "url": "www.paypal.com" }]
+      }
+    ]
+  },
+  {
+    "groups": [
+      {
+        "name": "Media",
+        "bookmarks": [
+          { "name": "Excalidraw", "url": "https://excalidraw.com/" },
+          { "name": "Youtube", "url": "www.youtube.com" }
+        ]
+      },
+      {
+        "name": "Communication",
+        "bookmarks": [
+          { "name": "syncthing", "url": "localhost:8384" },
+          { "name": "Whatsapp", "url": "web.whatsapp.com" },
+          {
+            "name": "Study Together",
+            "url": "https://discord.com/channels/595999872222756885/595999872222756888"
+          },
+          {
+            "name": "Webcam Pixel Remote",
+            "url": "http://192.168.178.36:4747/"
+          }
+        ]
+      },
+      {
+        "name": "Tool",
+        "bookmarks": [
+          { "name": "MonkeyType", "url": "https://monkeytype.com/" },
+          {
+            "name": "Password Generator",
+            "url": "https://bitwarden.com/password-generator/"
+          },
+          { "name": "Rechner", "url": "https://web2.0rechner.de/" },
+          {
+            "name": "Color Converter",
+            "url": "https://www.w3schools.com/colors/colors_converter.asp"
+          },
+          {
+            "name": "Bullshit Remover",
+            "url": "https://www.bullshitremover.com/"
+          },
+          {
+            "name": "EuroPass",
+            "url": "https://europa.eu/europass/eportfolio/screen/dashboard?lang=en"
+          }
+        ]
+      },
+      {
+        "name": "Style",
+        "bookmarks": [
+          {
+            "name": "Catppuccin colors",
+            "url": "https://catppuccin.com/palette"
+          }
+        ]
+      }
+    ]
+  }
+]

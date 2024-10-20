@@ -1,0 +1,130 @@
+{
+    "workbench.sideBar.location": "right",
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": "off"
+    },
+    "workbench.colorTheme": "Catppuccin Mocha",
+    "workbench.iconTheme": "catppuccin-perfect-mocha",
+    "editor.minimap.enabled": false,
+
+    "todo-tree.highlights.customHighlight": {
+
+
+
+
+
+        "BUG": {
+            "icon": "bug"
+        },
+        "HACK": {
+            "icon": "tools"
+        },
+        "FIXME": {
+            "icon": "flame"
+        },
+        "TODO": { 
+            "icon": "check-circle",
+            "iconColour": "#f5c2e7",
+            "background": "#f5c2e7",
+            "foreground": "#45475a",
+            "fontWeight": "600",
+        },
+        "GOTIT?": {
+            "icon": "check-circle",
+            "iconColour": "#4993e7",
+            "background": "#4993e7",
+            "foreground": "#45475a",
+            "fontWeight": "600",
+        },
+        "XXX": {
+            "icon": "x"
+        },
+        "BoomLogger.logDebug": {
+            "background": "#1e1e2e",
+        },
+        "DEBUG": {
+            "background": "#1e1e2e",
+        }
+    },
+    "dart.showTodos": false,
+    "todo-tree.general.tags": [
+        "BUG",
+        "HACK",
+        "FIXME",
+        "TODO",
+        "XXX",
+        "BoomLogger.logDebug",
+        "DEBUG",
+        "GOTIT?"
+    ],
+    "VSCodeCounter.ignoreUnsupportedFile": false,
+    "pomodoro.make": {
+        
+        "notification": true,
+        "statusbar": {
+            "alignment": "right",
+            "priority": 1000
+        }
+    },
+    "supermaven.otherWarning": false,
+    "gitlens.graph.minimap.enabled": false,
+    "find-it-faster.general.useTerminalInEditor": true,
+    "vim.cursorStylePerMode.insert": "line",
+    "vim.cursorStylePerMode.normal": "block",
+    "vim.cursorStylePerMode.replace": "block-outline",
+    "vim.cursorStylePerMode.visual": "underline",
+    "vim.cursorStylePerMode.visualblock": "block",
+    "vim.cursorStylePerMode.visualline": "line",
+    "vim.enableNeovim": true,
+    "vim.statusBarColorControl": true,
+    "workbench.colorCustomizations": {
+        "titleBar.activeBackground": "#7A86B6",
+        "titleBar.inactiveBackground": "#495C83",
+        "titleBar.activeForeground": "#FFFFFFFF",
+        "titleBar.inactiveForeground": "#7A86B6",
+        "titleBar.border": "#495C83",
+        "activityBar.background": "#495C83",
+        "activityBar.foreground": "#FFFFFFFF",
+        "activityBar.inactiveForeground": "#7A86B6",
+        "statusBar.background": "#005f5f",
+        "statusBar.noFolderBackground": "#005f5f",
+        "statusBar.debuggingBackground": "#005f5f",
+        "statusBar.foreground": "#ffffff",
+        "statusBar.debuggingForeground": "#ffffff"
+    },
+    "vim.leader": ":",
+    "find-it-faster.general.killTerminalAfterUse": true,
+    "find-it-faster.general.hideTerminalAfterSuccess": false,
+    "find-it-faster.general.hideTerminalAfterFail": false,
+    "find-it-faster.general.clearTerminalAfterUse": false,
+    "vim.handleKeys": {
+
+        "<C-d>": true,
+        "<C-s>": false,
+        "<C-z>": false
+    },
+    "git.openRepositoryInParentFolders": "never",
+    "terminal.integrated.fontSize": 12,
+    "terminal.integrated.fontWeight": "1000",
+    "debug.console.fontSize": 12,
+    "explorer.confirmDelete": false,
+    "workbench.activityBar.location": "top",
+    "workbench.editor.revealIfOpen": true,
+    "editor.lineNumbers": "relative",
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.expand": false,
+    "explorer.fileNesting.patterns": {
+        "*.dart": "${capture}.g.dart, ${capture}.freezed.dart"
+    },
+    "debug.console.wordWrap": false,
+    "todo-tree.general.tagGroups": {},
+    "dart.flutterSdkPath": "/home/triptonn/SDKs/flutter"
+}
