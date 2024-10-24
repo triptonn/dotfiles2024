@@ -68,9 +68,11 @@ alias tmux-left="tmux new -s leftyLeft"
 alias tmux-main="tmux new -s main"
 alias tmux-right="tmux new -s rightyRight"
 
-# shell runcom's
+# shell config shortcuts
 alias zshrc="nvim /home/triptonn/.zshrc"
 alias bshrc="nvim /home/triptonn/.bshrc"
+
+# shell runcom's 
 alias grooster="rm grooster; gcc -g -lstdc++ -std=c++20 -pedantic ./*.cpp -o ./grooster -time; timeout 2 ./grooster"
 alias clrooster="rm clrooster; clang++ -g -lstdc++ -std=c++20 -pedantic ./*.cpp -o ./clrooster; timeout 2 ./clrooster"
 

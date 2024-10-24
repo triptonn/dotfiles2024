@@ -1,6 +1,5 @@
 {
   "workbench.sideBar.location": "right",
-  "workbench.colorTheme": "Eldritch",
   "editor.minimap.enabled": false,
   "terminal.integrated.cursorBlinking": true,
   "cmake.showOptionsMovedNotification": false,
@@ -13,9 +12,24 @@
     {
       "before": ["j", "k"],
       "after": ["<Esc>"]
+    }
+  ],
+  "vim.normalModeKeyBindings": [
+    {
+      "before": ["z", "j"],
+      "after":  ["o", "<Esc>", "k"]
     },
-    {}
+    {
+      "before": ["z", "k"],
+      "after":  ["o", "<Esc>", "j", "k"]
+    }
   ],
   "terminal.external.linuxExec": "kitty",
-  "window.customTitleBarVisibility": "auto"
+  "window.customTitleBarVisibility": "auto",
+  "vim.cursorStylePerMode.insert": "line-thin",
+  "vim.cursorStylePerMode.normal": "block",
+  "vim.cursorStylePerMode.replace": "block-outline",
+  "vim.commandLineModeKeyBindings": [
+  
+  ]
 }
