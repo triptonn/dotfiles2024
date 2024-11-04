@@ -12,6 +12,7 @@ return {
 		local mason_tool_installer = require("mason-tool-installer")
 
 		mason.setup({
+			PATH = "prepend",
 			ui = {
 				icons = {
 					package_installed = "✓",
